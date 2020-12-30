@@ -127,7 +127,7 @@
                             <ul aria-expanded="false" class="collapse">
                                 <li><a href="{{ route('user') }}">List User</a></li>
                                 <li><a href="{{ route('seller') }}">List Seller</a></li>
-                                <li><a href="app-ticket.html">List Post</a></li>
+                                <li><a href="{{ route('post') }}">List Post</a></li>
                             </ul>
                         </li>
                         <li class="nav-small-cap">--- ADMIN</li>
