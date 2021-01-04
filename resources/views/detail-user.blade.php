@@ -27,7 +27,7 @@
                         <strong>Name</strong>
                         <p>{{$user->name}}</p>
                     </div>
-                    <div class="col-md-6"><strong>Occupation</strong>
+                    <div class="col-md-6"><strong>Sebagai</strong>
                         <p>
                             @if ($user->id_seller)
                             Penjual
@@ -44,7 +44,7 @@
                     <div class="col-md-6 b-r"><strong>Email</strong>
                         <p>{{$user->email}}</p>
                     </div>
-                    <div class="col-md-6"><strong>Phone</strong>
+                    <div class="col-md-6"><strong>No HP</strong>
                         <p>{{$user->no_hp}}</p>
                     </div>
                 </div>
