@@ -140,6 +140,7 @@ class HomeController extends Controller
     {
         $get_latlong = DB::table('sellers')
         ->select('latitude', 'longitude','nama_seller')
+        ->where('status',1)
         ->get();
         // dd($get_latlong);
         $locations=array();
